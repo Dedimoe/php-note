@@ -1,0 +1,9 @@
+replace all dot with coma:
+
+```
+preg_replace('/[^0-9\s]/', ',', $input)
+
+or
+
+str_replace('.', ',', $input)
+```
